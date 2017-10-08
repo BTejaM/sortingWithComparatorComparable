@@ -5,6 +5,7 @@ public class Car implements Comparable<Car>{
 	int year;
 
 	Car(String name, int year) {
+		System.out.println("test push");
 		this.name = name;
 		this.year = year;
 	}
